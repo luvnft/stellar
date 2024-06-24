@@ -70,13 +70,13 @@ export const Intro: React.FC<IntroProps> = ({handleLogin}) => {
         { isAuthenticated &&
         <>
         <h1 className='stellar'>Spotify Connected.</h1>
-        <p>You're Stellar-ready. Launch the app below to start creating and playing.</p>
+        <p>You're DJ-ready. Launch the app below to start creating and playing.</p>
         </>
         }
           {!isAuthenticated &&
           <>
-            <h1 className='stellar'>Finally, an AI that understands your eclectic music taste better than your friends.</h1>
-            <p>Connect your Spotify account and start discovering personalized music mixes tailored just for you.</p>
+            <h1 className='stellar'>DJ ATL5D is your ultimate AI-powered Spotify sound healing DJ app</h1>
+            <p>Open the Spotify app on your devices and connect your account and start discovering personalized music mixes tailored just for you based on your music preferences, celestial events, and local weather.</p>
             <div className='login-container'>
               <button className='spotify-login' onClick={handleLogin}><FaSpotify /> Connect with Spotify</button> 
             </div>

@@ -28,7 +28,7 @@ const PrivacyModal: React.FC<PrivacyModalProps> = ({ isOpen, onClose }) => {
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
         <h2>Privacy Policy</h2>
         <p>Effective Date: June 16, 2024</p>
-        <p>Welcome to StellarMix! Your privacy is important to us. This Privacy Policy explains how we handle your data when you use our app.</p>
+        <p>Welcome to DJ ATL5D! Your privacy is important to us. This Privacy Policy explains how we handle your data when you use our app.</p>
         <h3>Data Collection</h3>
         <p>Spotify Data: We do not store any of your data from Spotify. The data is used solely to provide you with personalized playlists and is not saved on our servers.</p>
         <h3>Data Usage</h3>
@@ -39,7 +39,7 @@ const PrivacyModal: React.FC<PrivacyModalProps> = ({ isOpen, onClose }) => {
         <h3>Changes to this Privacy Policy</h3>
         <p>We may update our Privacy Policy from time to time. Any changes will be posted on this page, and the effective date will be updated accordingly.</p>
         <h3>Free and Open Source</h3>
-        <p>StellarMix is a free and open-source project by <a target='_blank' href="https://mikefortuna.com" rel="noreferrer">Mike Fortuna</a>. Contributions from the community are welcome. Check out the repository on <a href='https://github.com/bkny-labs/stellar-mix-fe' target='_blank' rel="noreferrer">GitHub</a> to get involved!</p>
+        <p>DJ ATL5D is a free and open-source project by <a target='_blank' href="https://mikefortuna.com" rel="noreferrer">Mike Fortuna</a>. Contributions from the community are welcome. Check out the repository on <a href='https://github.com/bkny-labs/stellar-mix-fe' target='_blank' rel="noreferrer">GitHub</a> to get involved!</p>
         <button onClick={onClose} className="close-modal-button">Close</button>
       </div>
     </div>

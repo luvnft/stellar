@@ -143,14 +143,15 @@ function Home() {
 
 
       <div className="about">
-        <p className='small'>StellarMix is a free to use open source project by <a target='_blank' href="https://mikefortuna.com" rel="noreferrer">Mike Fortuna</a>.</p>
+        <p className='small'>DJ ATL5D is powered by <a target='_blank' href="https://atl5d.com" rel="noreferrer">ATL5D</a>.</p>
+        <p className='small'>Made by <a target='_blank' href="https://x.com/thewizardofhahz" rel="noreferrer">The Wizard of Hahz</a>.</p>
         <p className='small'>Powered by: <a href='https://openai.com' target='_blank' rel="noreferrer">OpenAI</a> | <a href='https://spotify.com' target='_blank' rel="noreferrer">Spotify</a> | <a href='https://openweathermap.org/' target='_blank' rel="noreferrer">OpenWeather</a> | <a href='http://suncalc.net/' target='_blank' rel="noreferrer">SunCalc</a></p>
         <p className='small'>
           <a onClick={openModal} href='#'>
             Privacy Policy
           </a>
         </p>
-        <a className="github" href='https://github.com/bkny-labs/stellar-mix-fe' target='_blank' rel="noreferrer"><FaGithub size={25} /></a>
+        <a className="atl5d" href='https://atl5d.com' target='_blank' rel="noreferrer"><FaGithub size={25} /></a>
       </div>
     </div>
     <PrivacyModal isOpen={isModalOpen} onClose={closeModal} />

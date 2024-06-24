@@ -80,7 +80,7 @@ const AppContent: React.FC<AppProps> = ({ updateMoodData }) => {
     <>
     {showToast && (
       <Toast
-        message={'Welcome to StellarMix, ' + userProfile?.display_name + '!' }
+        message={'Welcome to DJ ATL5D, ' + userProfile?.display_name + '!' }
         type="success"
         duration={7000}
         position="bottom-center"

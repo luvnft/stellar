@@ -2,7 +2,7 @@
 
 ---
 
-StellarMix is a Spotify companion and controller application that crafts the ultimate playlist for your mood using OpenAI to blending your music tastes with cues from the weather, time of day, moon phases and celestial events.
+DJHealxyz is a Spotify companion and controller application that crafts the ultimate playlist for your mood using OpenAI to blending your music tastes with cues from the weather, time of day, moon phases and celestial events.
 
 ## 🌠 Features
 - **AI-Powered Mood Detection**: Input your mood and let OpenAI search Spotify for the perfect playlists.
